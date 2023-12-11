@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --darkCyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    --verydarkBlue: hsl(212, 21%, 14%);
+    --darkGrayishBlue: hsl(228, 12%, 48%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    margin: 40px auto;
+    display: flex;
+    background-color: white;
+}
+
+.information {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.perfume {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 0.75em;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--darkGrayishBlue);
+}
+
+.title {
+    margin-top: 12px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    color: var(--verydarkBlue);
+}
+
+.text {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 0.875em;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--darkGrayishBlue);
+}
+
+.prices {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 1.875em;
+    font-family: 'Fraunces', serif;
+    color: var(--darkCyan);
+}
+
+.price-strike {
+    font-size: 0.875em;
+    padding-left: 20px;
+    color: var(--darkGrayishBlue);
+    font-weight: 500;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 75px;
+    background-color: var(--darkCyan);
+    display: flex;
+    align-items:center;
+    border-radius: 10px;
+    border: 1px solid white;    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--darkGrayishBlue);
+}
+
+.add-cart {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.656em;
+    padding-left: 10px;
+}
